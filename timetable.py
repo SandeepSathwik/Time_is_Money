@@ -281,9 +281,7 @@ def main():
     admin_frame.grid_forget()
     adminPage_frame.grid_forget()
     main_frame.grid_forget()
-    #year_frame.grid_forget()
     cource_frame.grid_forget()
-    #forSubjects_Frame.grid_forget()
 
     main_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -305,9 +303,7 @@ def student():
     admin_frame.grid_forget()
     adminPage_frame.grid_forget()
     main_frame.grid_forget()
-    #year_frame.grid_forget()
     cource_frame.grid_forget()
-    #forSubjects_Frame.grid_forget()
 
     student_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -364,9 +360,7 @@ def teacher():
     admin_frame.grid_forget()
     adminPage_frame.grid_forget()
     main_frame.grid_forget()
-    #year_frame.grid_forget()
     cource_frame.grid_forget()
-    #forSubjects_Frame.grid_forget()
 
     teacher_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -534,8 +528,6 @@ def in_adminCource():
             admin_frame.grid_forget()
             adminPage_frame.grid_forget()
             main_frame.grid_forget()
-            # year_frame.grid_forget()
-            # forSubjects_Frame.grid_forget()
 
             cource_frame.grid(column=0, row=0, padx=20, pady=5)
         else:
@@ -547,9 +539,7 @@ def in_adminCource():
             teaSign_frame.grid_forget()
             adminPage_frame.grid_forget()
             main_frame.grid_forget()
-            # year_frame.grid_forget()
             cource_frame.grid_forget()
-            # forSubjects_Frame.grid_forget()
 
             admin_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -563,9 +553,7 @@ def in_adminCource():
     teaSign_frame.grid_forget()
     adminPage_frame.grid_forget()
     main_frame.grid_forget()
-    #year_frame.grid_forget()
     cource_frame.grid_forget()
-    #forSubjects_Frame.grid_forget()
 
     admin_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -593,8 +581,6 @@ def in_adminTs():
             adminPage_frame.grid_forget()
             main_frame.grid_forget()
             cource_frame.grid_forget()
-            """ year_frame.grid_forget()
-            forSubjects_Frame.grid_forget()"""
 
             teaSign_frame.grid(column=0, row=0, padx=20, pady=5)
         else:
@@ -606,9 +592,7 @@ def in_adminTs():
             teaSign_frame.grid_forget()
             adminPage_frame.grid_forget()
             main_frame.grid_forget()
-            # year_frame.grid_forget()
             cource_frame.grid_forget()
-            # forSubjects_Frame.grid_forget()
 
             admin_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -620,9 +604,7 @@ def in_adminTs():
     teaSign_frame.grid_forget()
     adminPage_frame.grid_forget()
     main_frame.grid_forget()
-    #year_frame.grid_forget()
     cource_frame.grid_forget()
-    #forSubjects_Frame.grid_forget()
 
     admin_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -649,9 +631,7 @@ def in_adminSs():
             admin_frame.grid_forget()
             adminPage_frame.grid_forget()
             main_frame.grid_forget()
-            # year_frame.grid_forget()
             cource_frame.grid_forget()
-            # forSubjects_Frame.grid_forget()
 
             stuSign_frame.grid(column=0, row=0, padx=20, pady=5)
         else:
@@ -663,9 +643,7 @@ def in_adminSs():
             teaSign_frame.grid_forget()
             adminPage_frame.grid_forget()
             main_frame.grid_forget()
-            # year_frame.grid_forget()
             cource_frame.grid_forget()
-            # forSubjects_Frame.grid_forget()
 
             admin_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -677,9 +655,7 @@ def in_adminSs():
     teaSign_frame.grid_forget()
     adminPage_frame.grid_forget()
     main_frame.grid_forget()
-    #year_frame.grid_forget()
     cource_frame.grid_forget()
-    #forSubjects_Frame.grid_forget()
 
     admin_frame.grid(column=0, row=0, padx=20, pady=5)
 
@@ -707,9 +683,6 @@ application.config(menu=main_menu)
 sub_menu = Menu(main_menu)
 
 main_menu.add_cascade(label="Menu", menu=sub_menu)
-
-"""sub_menu.add_command(label="Year", command=in_adminYear)
-sub_menu.add_separator()"""
 sub_menu.add_command(label="Cource", command=in_adminCource)
 sub_menu.add_separator()
 sub_menu.add_command(label="Create Timetable", command=createTimetable)
@@ -770,8 +743,6 @@ stuSign_frame.grid(column=0, row=0, padx=20, pady=5)
 in_main()
 in_student()
 in_teacher()
-#in_teaPage()
-#in_year()
 in_cource()
 in_stuSign()
 in_teaSign()
@@ -782,7 +753,6 @@ admin_frame.grid_forget()
 stuPage_frame.grid_forget()
 teaPage_frame.grid_forget()
 adminPage_frame.grid_forget()
-#year_frame.grid_forget()
 cource_frame.grid_forget()
 stuSign_frame.grid_forget()
 teaSign_frame.grid_forget()
